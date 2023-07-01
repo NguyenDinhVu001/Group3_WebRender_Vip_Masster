@@ -74,7 +74,7 @@ function App() {
       <div className="App">
         <Header />
         <div>
-          <Route path="/" component={Home} exact />
+          <Route path="/homepage" component={Home} exact />
           <Route path="/search/:keyword" component={Home} />
           <Route path="/product/:id" component={ProductDetails} exact />
 
